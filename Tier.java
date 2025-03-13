@@ -19,7 +19,7 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
      */
     public Tier (String name, int strenght, boolean enemie, String entity_type) {
         this.name = name;
-        this.strength = strength;
+        this.strength = strenght;
         this.enemie = enemie;
         this.entity_type = entity_type;
     }
@@ -69,10 +69,18 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
      * @param gegner
      * @return
      */
-    public boolean kaempfen (Tier gegner) {
-        boolean result = false;
-        if (this.getStrength() > gegner.getStrength()) result = true;
-
-        return result;
+    public String kaempfen (Tier gegner) {
+        String winnerName = "";
+        System.out.println(this.getStrength());
+        if (this.getStrength() > gegner.getStrength()) {
+            winnerName = this.getName() + " hat gewonnen!";
+        } else if (this.getStrength() < gegner.getStrength()) {
+            winnerName = gegner.getName() + " hat gewonnen!";
+        } else if (this.getStrength() == gegner.getStrength()) {
+            winnerName = "Unendschieden!";
+            //TODO: Random Ereignis, dass einer von beiden gewinnt (random)
+        }
+        return winnerName;
+        
     } 
 }
