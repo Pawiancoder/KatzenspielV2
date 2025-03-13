@@ -1,4 +1,4 @@
-public class Katze extends Tier{
+public class Katze extends Tier {
 
     /**
      * Konstruktor mit Parametern

@@ -5,7 +5,7 @@
 public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
     private String name; //Name des Tieres
     private int level; //Level
-    private int strenght; //stärke des Tieres
+    private int strength; //stärke des Tieres
     private int xp_amount; //Menge an XP (für Levelup ggf)
     private boolean enemie; //Gegner oder Spieler
     private String entity_type;
@@ -19,7 +19,7 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
      */
     public Tier (String name, int strenght, boolean enemie, String entity_type) {
         this.name = name;
-        this.strenght = strenght;
+        this.strength = strength;
         this.enemie = enemie;
         this.entity_type = entity_type;
     }
@@ -44,8 +44,8 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
      * gibt die Kampfkraft/Stärke zurück
      * @return - Kampfkraft
      */
-    public int getStrenght () {
-        return this.strenght;
+    public int getStrength () {
+        return this.strength;
     }
 
     /**
@@ -71,7 +71,7 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
      */
     public boolean kaempfen (Tier gegner) {
         boolean result = false;
-        if (this.getStrenght() > gegner.getStrenght()) result = true;
+        if (this.getStrength() > gegner.getStrength()) result = true;
 
         return result;
     } 
