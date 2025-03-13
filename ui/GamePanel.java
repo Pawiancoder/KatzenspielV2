@@ -61,6 +61,8 @@ public class GamePanel extends JPanel implements Runnable {
 
             // 2 DRAW: Zeige Bildschirm mit updated information
             repaint();
+
+            double remainingTime = nextDrawTime
         }
     }
     public void update() {
