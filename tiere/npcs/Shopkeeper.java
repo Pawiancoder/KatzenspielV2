@@ -2,6 +2,7 @@ package tiere.npcs;
 
 import utils.ShopItem;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Shopkeeper {
     private String name;
@@ -20,6 +21,11 @@ public class Shopkeeper {
 
     public String getShop_type () {
         return this.shop_type;
+    }
+
+    public void einkaufen() {
+        System.out.println(this.toString());
+        Scanner scanner = new Scanner(System.in);
     }
 
     @Override //Überschreibt toString der oberen "Mutterklasse"

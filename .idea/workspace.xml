@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="UI Funktioniert erstmals">
+    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="Gamepannel update">
+      <change afterPath="$PROJECT_DIR$/tiere/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KatzenspielV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KatzenspielV2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KatzenspielV2/tiere/npcs/Shopkeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KatzenspielV2/tiere/npcs/Shopkeeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KatzenspielV2/ui/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KatzenspielV2/ui/GamePanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KatzenspielV2/utils/Waffe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KatzenspielV2/utils/Waffe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Waffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Waffe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" afterDir="false" />
     </list>
-    <list id="131c218a-148b-4851-bad2-50930fbd5967" name="Changes by nicor" comment="Waffenupdate">
+    <list id="bd4d0813-a15c-4380-8c0d-e0d3ade3e52b" name="Changes by nicor" comment="Changes by nicor">
       <change beforePath="$PROJECT_DIR$/ui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +195,47 @@
       <option name="project" value="LOCAL" />
       <updated>1741898034872</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="UI Funktioniert erstmals">
+      <option name="closed" value="true" />
+      <created>1741898580007</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741898580007</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update // JavaDoc-Kommentare">
+      <option name="closed" value="true" />
+      <created>1741898600018</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741898600018</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Gamepannel update">
+      <option name="closed" value="true" />
+      <created>1741898818137</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741898818137</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changes by nicor">
+      <option name="closed" value="true" />
+      <created>1741898822337</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741898822337</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changes by nicor">
+      <option name="closed" value="true" />
+      <created>1741898853918</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741898853918</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,13 +246,15 @@
     <MESSAGE value="NEUSTART Projekt, Strukturierung in Packages" />
     <MESSAGE value="Anfang Inventar und Hauptsklasse zum testen" />
     <MESSAGE value="Erster Testdurchlauf/Inventar verbessert" />
-    <MESSAGE value="Changes by nicor" />
     <MESSAGE value="Anfang shopkeeper // XP" />
     <MESSAGE value="shopkeeper erweitert // Inventar erweitert" />
     <MESSAGE value="shopkeeper erster Test &amp; Anfang UI" />
     <MESSAGE value="UI Update // erster Test" />
     <MESSAGE value="Waffenupdate" />
     <MESSAGE value="UI Funktioniert erstmals" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Funktioniert erstmals" />
+    <MESSAGE value="update // JavaDoc-Kommentare" />
+    <MESSAGE value="Gamepannel update" />
+    <MESSAGE value="Changes by nicor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by nicor" />
   </component>
 </project>
