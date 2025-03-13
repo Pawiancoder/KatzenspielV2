@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="Anfang Inventar und Hauptsklasse zum testen" />
-    <list id="131c218a-148b-4851-bad2-50930fbd5967" name="Changes by nicor" comment="">
+    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="Erster Testdurchlauf/Inventar verbessert">
+      <change afterPath="$PROJECT_DIR$/tiere/npcs/shopkeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/ShopItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/Inventar.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Inventar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/items/Item.java" afterDir="false" />
+    </list>
+    <list id="131c218a-148b-4851-bad2-50930fbd5967" name="Changes by nicor" comment="Changes by nicor">
+      <change beforePath="$PROJECT_DIR$/utils/Inventar.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Inventar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Waffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Waffe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,16 @@
     &quot;accountId&quot;: &quot;f43c026b-ac0a-41f5-a7a9-f54109bdce9c&quot;
   }
 }</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/utils/Inventar.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="7" changelist="131c218a-148b-4851-bad2-50930fbd5967" />
+        <range start1="2" end1="6" start2="8" end2="8" changelist="d365f624-e6e0-40bb-a142-32c3e711f241" />
+        <range start1="34" end1="35" start2="36" end2="51" changelist="131c218a-148b-4851-bad2-50930fbd5967" />
+        <range start1="36" end1="37" start2="52" end2="52" changelist="131c218a-148b-4851-bad2-50930fbd5967" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -117,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741895063052</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changes by nicor">
+      <option name="closed" value="true" />
+      <created>1741895308957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741895308957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +152,8 @@
     <MESSAGE value="Hund.java erstellt: abgeleitet von der Tier klasse mit super()" />
     <MESSAGE value="NEUSTART Projekt, Strukturierung in Packages" />
     <MESSAGE value="Anfang Inventar und Hauptsklasse zum testen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anfang Inventar und Hauptsklasse zum testen" />
+    <MESSAGE value="Erster Testdurchlauf/Inventar verbessert" />
+    <MESSAGE value="Changes by nicor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by nicor" />
   </component>
 </project>

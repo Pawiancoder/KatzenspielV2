@@ -1,5 +1,7 @@
 package utils;
 
+import utils.items.Item;
+
 /**
  * @author Pawiancoder, Augenringe
  */
@@ -32,5 +34,19 @@ public class Inventar extends Item {
         return false; //Invalider Itemslot oder Itemslot ist schon leer
     }
 
-    public 
+    public Item getItem(int slot) {
+
+            return new Item();
+    }
+
+    public void displayInventory() {
+        for(int i = 0; i < size; i++) {
+            if(slots[i] !=null) {
+                System.out.println("Slot " + (i+1) + ": " + slots[i].name);
+            }
+            else {
+                System.out.println("Slot " + (i+1) + ": empty");
+            }
+        }
+    }
 }

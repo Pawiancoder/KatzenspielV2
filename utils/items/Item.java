@@ -1,4 +1,6 @@
-package utils;
+package utils.items;
+
+import utils.Waffe;
 
 /**
  * @author Pawiancoder, Augenringe
@@ -9,4 +11,5 @@ public class Item {
     public int value;
     public int slot;
     public Waffe waffe;
+    public int itemPrice;
 }
