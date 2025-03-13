@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="Hund.java erstellt: abgeleitet von der Tier klasse mit super()">
-      <change beforePath="$PROJECT_DIR$/Inventar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Waffe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tiere/Hund.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tiere/Katze.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tiere/Tier.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiere/Tier.java" afterDir="false" />
+    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="Anfang Inventar und Hauptsklasse zum testen" />
+    <list id="131c218a-148b-4851-bad2-50930fbd5967" name="Changes by nicor" comment="">
+      <change beforePath="$PROJECT_DIR$/utils/Inventar.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Inventar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +93,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741887675555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="NEUSTART Projekt, Strukturierung in Packages">
+      <option name="closed" value="true" />
+      <created>1741894835267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741894835267</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Anfang Inventar und Hauptsklasse zum testen">
+      <option name="closed" value="true" />
+      <created>1741895026581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741895026581</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Anfang Inventar und Hauptsklasse zum testen">
+      <option name="closed" value="true" />
+      <created>1741895063052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741895063052</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +125,8 @@
     <MESSAGE value="Tierklasse: Getter und Setter, Tierklasse ist abstrakt, weitere Atribute festgelegt" />
     <MESSAGE value="Katze.java erstellt: abgeleitet von der Tier klasse mit super()" />
     <MESSAGE value="Hund.java erstellt: abgeleitet von der Tier klasse mit super()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hund.java erstellt: abgeleitet von der Tier klasse mit super()" />
+    <MESSAGE value="NEUSTART Projekt, Strukturierung in Packages" />
+    <MESSAGE value="Anfang Inventar und Hauptsklasse zum testen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anfang Inventar und Hauptsklasse zum testen" />
   </component>
 </project>

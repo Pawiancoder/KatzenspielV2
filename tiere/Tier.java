@@ -1,4 +1,10 @@
 package tiere;
+
+/**
+ * @author Pawiancoder, Augenringe
+ */
+
+
 /**
  * Tier-Klasse - Damit werden alle Tiere erstellt
  *

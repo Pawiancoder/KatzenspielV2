@@ -6,6 +6,7 @@ public class Main {
         Katze katze = new Katze("HARRALD", 2, false, "Katze");
         Hund hund = new Hund("Günter", 1, true, "Hund");
 
-        katze.kaempfen(hund);
+        String ergebnis = katze.kaempfen(hund);
+        System.out.println(ergebnis);
     }
 }
