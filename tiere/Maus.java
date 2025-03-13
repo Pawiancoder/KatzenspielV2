@@ -1,6 +1,6 @@
-import Tiere.Tier;
+package tiere;
 
-public class Hund extends Tier {
+public class Maus extends Tier{
 
     /**
      * Konstruktor mit Parametern
@@ -10,7 +10,7 @@ public class Hund extends Tier {
      * @param enemie      - true = Gegner, false = kein Gegner
      * @param entity_type - Tierart als String
      */
-    public Hund(String name, int strenght, boolean enemie, String entity_type) {
+    public Maus(String name, int strenght, boolean enemie, String entity_type) {
         super(name, strenght, enemie, entity_type);
     }
 }

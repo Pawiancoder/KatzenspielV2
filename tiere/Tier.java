@@ -1,6 +1,4 @@
-package src.tiere;
-
-
+package tiere;
 /**
  * Tier-Klasse - Damit werden alle Tiere erstellt
  *
@@ -84,6 +82,6 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
             //TODO: Random Ereignis, dass einer von beiden gewinnt (random)
         }
         return winnerName;
-        
-    } 
+
+    }
 }
