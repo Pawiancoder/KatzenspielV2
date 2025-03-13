@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="shopkeeper erweitert // Inventar erweitert">
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiere/npcs/shopkeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" afterDir="false" />
+    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="shopkeeper erster Test &amp; Anfang UI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" afterDir="false" />
     </list>
-    <list id="131c218a-148b-4851-bad2-50930fbd5967" name="Changes by nicor" comment="Changes by nicor" />
+    <list id="131c218a-148b-4851-bad2-50930fbd5967" name="Changes by nicor" comment="Changes by nicor">
+      <change beforePath="$PROJECT_DIR$/ui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/KeyHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741896467600</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="shopkeeper erster Test &amp; Anfang UI">
+      <option name="closed" value="true" />
+      <created>1741896912928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741896912928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +181,7 @@
     <MESSAGE value="Changes by nicor" />
     <MESSAGE value="Anfang shopkeeper // XP" />
     <MESSAGE value="shopkeeper erweitert // Inventar erweitert" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopkeeper erweitert // Inventar erweitert" />
+    <MESSAGE value="shopkeeper erster Test &amp; Anfang UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopkeeper erster Test &amp; Anfang UI" />
   </component>
 </project>

@@ -24,9 +24,9 @@ public class Shopkeeper {
 
     @Override //Überschreibt toString der oberen "Mutterklasse"
     public String toString () {
-        String text = "Preisliste: \n \n";
+        String text = "Preisliste:" + System.lineSeparator() + System.lineSeparator();
         for (ShopItem item : itemListe) {
-            text += "- " + item.getItemName() + " - " + item.getPrice() + "Katzenmünzen\n";
+            text += "- " + item.getItemName() + " - " + item.getPrice() + "Katzenmünzen" + System.lineSeparator();
         }
         return text;
     }
