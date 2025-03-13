@@ -1,3 +1,6 @@
+package src.tiere;
+
+
 /**
  * Tier-Klasse - Damit werden alle Tiere erstellt
  *

@@ -1,3 +1,5 @@
+import Tiere.Tier;
+
 public class Hund extends Tier {
 
     /**

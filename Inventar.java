@@ -36,7 +36,23 @@ public class Inventar {
 
             return new Item();
         }
+
+       public void displayInventory() {
+    // Prüfen, ob slots und size korrekt initialisiert wurden
+    if (slots == null) {
+        System.out.println("Inventar ist nicht initialisiert.");
+        return;
     }
+
+    for (int i = 0; i < slots.length; i++) { 
+        if (slots[i] != null) {
+            System.out.println("Slot " + (i + 1) + ": " + slots[i].name);
+        } else {
+            System.out.println("Slot " + (i + 1) + ": empty");
+            }
+        }
+    }
+}
 
 
             
