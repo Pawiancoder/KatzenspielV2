@@ -63,4 +63,16 @@ public abstract class Tier { //Abstract => Klasse kann nicht instanziert werden
     public String getEntity_type () {
         return this.entity_type;
     }
+
+    /**
+     * kampffunktion für jedes Tier - lässt jedes Tier gegen ein anderes Kämpfen und das stärkere Tier gewinnt
+     * @param gegner
+     * @return
+     */
+    public boolean kaempfen (Tier gegner) {
+        boolean result = false;
+        if (this.getStrenght() > gegner.getStrenght()) result = true;
+
+        return result;
+    } 
 }
