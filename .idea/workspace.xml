@@ -35,16 +35,6 @@
     &quot;accountId&quot;: &quot;f43c026b-ac0a-41f5-a7a9-f54109bdce9c&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/utils/items/Waffen/Waffe.java">
-      <ranges>
-        <range start1="6" end1="6" start2="6" end2="10" changelist="d365f624-e6e0-40bb-a142-32c3e711f241" />
-        <range start1="9" end1="10" start2="13" end2="14" changelist="6294080b-fa95-415b-ac2f-738e4da43c29" />
-        <range start1="14" end1="14" start2="18" end2="19" changelist="d365f624-e6e0-40bb-a142-32c3e711f241" />
-        <range start1="28" end1="28" start2="33" end2="41" changelist="d365f624-e6e0-40bb-a142-32c3e711f241" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -100,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741885930614</updated>
-      <workItem from="1741934702082" duration="1381000" />
+      <workItem from="1741934702082" duration="5767000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Setup in der Tier-Klasse, Anfang Javadoc">
       <option name="closed" value="true" />

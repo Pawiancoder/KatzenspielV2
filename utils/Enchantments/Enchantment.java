@@ -1,6 +1,6 @@
 package utils.Enchantments;
 
-public class Enchantment {
+public abstract class Enchantment {
     private String name;
     private String description;
     private int damageMultiplier;
