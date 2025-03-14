@@ -1,6 +1,6 @@
 package utils.items;
 
-import utils.Waffe;
+import utils.items.Waffen.Waffe;
 
 /**
  * @author Pawiancoder, Augenringe

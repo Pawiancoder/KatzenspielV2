@@ -1,4 +1,4 @@
-package utils;
+package utils.items.Waffen;
 
 /**
  * @author Pawiancoder, Augenringe
@@ -13,6 +13,13 @@ public abstract class Waffe {
     private int schaden;
     private int cooldown; //Waffeneffekt Cooldown
 
+    /**
+     * Konstruktor für die Waffe
+     * @param name - Name der Waffe
+     * @param waffentyp - Waffentyp
+     * @param schaden - Schaden der Waffe pro Schlag/Schuss
+     * @param cooldown - Cooldown der Waffe
+     */
     public Waffe (String name, String waffentyp, int schaden, int cooldown) {
         this.waffentyp = waffentyp;
         this.schaden = schaden;

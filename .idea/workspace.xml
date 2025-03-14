@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="update Shop/Player/Gamepanel" />
-    <list id="6294080b-fa95-415b-ac2f-738e4da43c29" name="Changes by nicor" comment="">
+    <list id="6294080b-fa95-415b-ac2f-738e4da43c29" name="Changes by nicor" comment="Changes by nicor">
       <change beforePath="$PROJECT_DIR$/ui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741885930614</updated>
-      <workItem from="1741934702082" duration="407000" />
+      <workItem from="1741934702082" duration="938000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Setup in der Tier-Klasse, Anfang Javadoc">
       <option name="closed" value="true" />
