@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="Gamepannel update">
-      <change afterPath="$PROJECT_DIR$/tiere/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiere/npcs/Shopkeeper.java" afterDir="false" />
-    </list>
-    <list id="bd4d0813-a15c-4380-8c0d-e0d3ade3e52b" name="Changes by nicor" comment="Changes by nicor">
+    <list default="true" id="d365f624-e6e0-40bb-a142-32c3e711f241" name="Changes" comment="update Shop/Player/Gamepanel" />
+    <list id="6294080b-fa95-415b-ac2f-738e4da43c29" name="Changes by nicor" comment="">
       <change beforePath="$PROJECT_DIR$/ui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,15 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "<unknown>",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -70,6 +70,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,6 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741885930614</updated>
+      <workItem from="1741934702082" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Setup in der Tier-Klasse, Anfang Javadoc">
       <option name="closed" value="true" />
@@ -231,8 +240,35 @@
       <option name="project" value="LOCAL" />
       <updated>1741898853918</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update Shop/Player/Gamepanel">
+      <option name="closed" value="true" />
+      <created>1741899673872</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741899673872</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changes by nicor">
+      <option name="closed" value="true" />
+      <created>1741899679463</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741899679463</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Changes by nicor">
+      <option name="closed" value="true" />
+      <created>1741899686663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1741899686663</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Setup in der Tier-Klasse, Anfang Javadoc" />
@@ -250,6 +286,7 @@
     <MESSAGE value="UI Funktioniert erstmals" />
     <MESSAGE value="update // JavaDoc-Kommentare" />
     <MESSAGE value="Gamepannel update" />
+    <MESSAGE value="update Shop/Player/Gamepanel" />
     <MESSAGE value="Changes by nicor" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes by nicor" />
   </component>
