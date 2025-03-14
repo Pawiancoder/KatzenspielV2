@@ -4,6 +4,10 @@ package utils.items.Waffen;
  * @author Pawiancoder, Augenringe
  */
 
+import utils.Enchantments.Enchantment;
+
+import java.util.ArrayList;
+
 /**
  * Waffen-Klasse
  */
@@ -12,6 +16,7 @@ public abstract class Waffe {
     private String waffentyp;
     private int schaden;
     private int cooldown; //Waffeneffekt Cooldown
+    private ArrayList<Enchantment> verzauberungen;
 
     /**
      * Konstruktor für die Waffe
@@ -24,6 +29,14 @@ public abstract class Waffe {
         this.waffentyp = waffentyp;
         this.schaden = schaden;
         this.cooldown = cooldown;
+    }
+
+    /**
+     * Füge Verzauberung der Waffe hinzu
+     * @param enchantment - Verzauberung
+     */
+    public void addEnchantment (Enchantment enchantment) {
+        verzauberungen.add(enchantment);
     }
 
     /**
